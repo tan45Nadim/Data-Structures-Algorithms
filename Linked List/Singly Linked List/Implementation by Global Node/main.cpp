@@ -1,3 +1,7 @@
+/********************************
+    Implementation by Global Node
+********************************/
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -184,3 +188,18 @@ int main() {
 
     return 0;
 }
+
+
+/*
+Output
+
+After pushing(front) 5 nodes: 4 3 2 1 0
+After poping(front) 3 nodes: 1 0
+After pushing(back) 5 nodes: 1 0 5 6 7 8 9
+After poping(back) 3 nodes: 1 0 5 6
+After erasing 1 node: 1 5 6
+Using addAfter: 1 5 22 6
+Using addBefore: 100 1 5 22 6
+Using addBefore: 100 1 88 5 22 6
+
+*/
