@@ -50,7 +50,9 @@ void pushBack(int key) {
 void popBack() {
     if (head == NULL) return;
     else if (head -> next == NULL) {
+        Node *delNode = head;
         head = NULL;
+        delete delNode;
         return;
     }
 
