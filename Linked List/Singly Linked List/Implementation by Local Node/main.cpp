@@ -51,7 +51,9 @@ Node* pushBack(Node* head, int key) {
 Node* popBack(Node* head) {
     if (head == NULL) return head;
     else if (head -> next == NULL) {
+        Node *delNode = head;
         head = NULL;
+        delete delNode;
         return  head;
     }
 
