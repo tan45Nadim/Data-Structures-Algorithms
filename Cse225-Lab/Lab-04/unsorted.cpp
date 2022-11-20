@@ -30,15 +30,13 @@ void UnsortedType<T>::Insert(T item) {
 template<class T>
 void UnsortedType<T>::Delete(T item) {
     int pos;
-    for(int i=0; i<length; i++)
-    {
+    for(int i=0; i<length; i++) {
         if(data[i] == item) {
             pos = i;
             break;
         }
     }
-    for(int i=pos; i<length-1; i++)
-    {
+    for(int i=pos; i<length-1; i++) {
         data[i] = data[i+1];
     }
     length--;
@@ -62,10 +60,8 @@ void UnsortedType<T>::ResetList() {
 
 template<class T>
 void UnsortedType<T>::RetriveItem(T& item, bool& found) {
-    for(int i=0; i<length; i++)
-    {
-        if(data[i] == item)
-        {
+    for(int i=0; i<length; i++) {
+        if(data[i] == item) {
             found = true;
             break;
         }
