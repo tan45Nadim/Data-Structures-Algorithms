@@ -1,0 +1,18 @@
+5 7 6 9
+4
+5 7 6 9 1
+Item is not found
+Item is found
+Item is found
+Item is not found
+List is full
+List is not full
+7 6 9
+7 9
+Item is found
+13569 Sandor 1.2
+
+15234 Jon 2.6
+13732 Tyrion 3.9
+13569 Sandor 1.2
+16285 Arya 3.1
