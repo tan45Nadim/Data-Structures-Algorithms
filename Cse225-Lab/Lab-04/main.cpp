@@ -24,8 +24,7 @@ void countLength(UnsortedType<int> u) {
 
 void print(UnsortedType<int> u) {
     int temp;
-    for(int i=0; i<u.LengthIs(); i++)
-    {
+    for(int i=0; i<u.LengthIs(); i++) {
         u.getNextItem(temp);
         cout<<temp<<" ";
     }
@@ -35,8 +34,7 @@ void print(UnsortedType<int> u) {
 
 void print(UnsortedType<Student> u) {
     Student temp;
-    for(int i=0; i<u.LengthIs(); i++)
-    {
+    for(int i=0; i<u.LengthIs(); i++) {
         u.getNextItem(temp);
         temp.PrintStudent();
     }
@@ -55,15 +53,12 @@ void checkValue(UnsortedType<int> u, int n) {
 void Retrieve(UnsortedType <Student> u, Student stu) {
     bool found = false;
     u.RetriveItem(stu, found);
-    if(found)
-    {
+    if(found) {
         cout<<"Item is found"<<endl;
         Student temp;
-        for(int i=0; i<u.LengthIs(); i++)
-        {
+        for(int i=0; i<u.LengthIs(); i++) {
             u.getNextItem(temp);
-            if(temp == stu)
-            {
+            if(temp == stu) {
                 temp.PrintStudent();
                 break;
             }
