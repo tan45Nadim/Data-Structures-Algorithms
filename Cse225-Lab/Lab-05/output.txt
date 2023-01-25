@@ -1,0 +1,12 @@
+0
+1 2 4 5 7
+Item is not found
+Item is found
+List is full
+2 4 5 7
+List not full
+
+15:34:23
+13:13:2
+43:45:12
+52:2:20
