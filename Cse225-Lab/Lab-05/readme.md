@@ -1,1 +1,1 @@
-###[Sorted List (array based)]
+### [Sorted List (array based)]
