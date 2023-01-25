@@ -1,0 +1,11 @@
+Stack is Empty
+Stack is not Empty
+Stack is not Full
+5 7 4 2
+Stack is Full
+5 7 4
+4
+Parenthesis Balanched
+Parenthesis Balanched
+Not Parenthesis Balanched
+Parenthesis Balanched
