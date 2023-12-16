@@ -2,7 +2,7 @@
 #include <algorithm>
 using namespace std;
 
-int binary_search(int *arr, int n, int key) {
+int binarySearch(int *arr, int n, int key) {
     int first = 0;
     int last = n - 1;
 
@@ -30,7 +30,10 @@ int main() {
 
     cout << "Enter a number for Search: ";
     int key; cin >> key;
-    cout << binary_search(arr, n, key) << endl;
+    cout << binarySearch(arr, n, key) << endl;
 
     return 0;
 }
+
+// Time Complexity O(log(n))
+// Space Complexity of O(1)
