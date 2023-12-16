@@ -27,10 +27,10 @@ int main() {
 
     cout << "Enter a number for Search: ";
     int key; cin >> key;
-    cout << binarySearch(arr, 0, n, key) << endl;
+    cout << binarySearch(arr, 0, n - 1, key) << endl;
   
     return 0;
 }
 
-//Time Complexity O(log(n))
-//Space Complexity of O(log N)
+// Time Complexity O(log N)
+// Space Complexity of O(log N)
