@@ -23,13 +23,14 @@ int binary_search(int *arr, int n, int key) {
 int main() {
     int n; cin >> n;
     int *arr = new int[n];
-    for (int i=0; i<n; i++) {
+    for (int i = 0; i < n; i++) {
         cin >> *(arr + i);
     }
-    sort(arr,arr+n);
-  
+    sort(arr, arr+n);
+
+    cout << "Enter a number for Search: ";
     int key; cin >> key;
-    cout << binary_search(arr,n,key) << endl;
-  
+    cout << binary_search(arr, n, key) << endl;
+
     return 0;
 }
