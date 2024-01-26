@@ -3,15 +3,15 @@ using namespace std;
 
 void insertion_sort(int *arr, int n) {
     for (int i = 1; i < n; i++) {
-        int iteam = *(arr + i);
+        int item = *(arr + i);
         int j = i - 1;
         
-        while (j >= 0 && *(arr + j) > iteam) {
+        while (j >= 0 && *(arr + j) > item) {
             *(arr + j + 1) = *(arr + j);
             j--;
         }
         
-        *(arr + j + 1) = iteam;
+        *(arr + j + 1) = item;
     }
 }
 
