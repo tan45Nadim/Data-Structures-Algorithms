@@ -18,7 +18,10 @@ void merge(int *A, int start, int mid, int end) {
     for (int j = 0; j < right; j++) {
         R[j] = A[mid + j + 1];
     }
-
+    
+// The sorting can be done using both for and while loop. 
+// the looping with While is commented below.
+    
     int i = 0, j = 0;
     for (int k = start; k <= end; k++) {
         if (L[i] <= R[j]) {
@@ -70,6 +73,6 @@ int main () {
     for (int i = 0; i < n; i++) {
         cout << arr[i] << " ";
     } cout << endl;
-
+    
     delete[] arr;
 }
