@@ -36,3 +36,6 @@ int main() {
     delete[] arr;
     return 0;
 }
+
+// Time Complexity O(log(n))
+// Space Complexity of O(1)
