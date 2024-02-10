@@ -28,7 +28,8 @@ int main() {
     cout << "Enter a number for Search: ";
     int key; cin >> key;
     cout << binarySearch(arr, 0, n - 1, key) << endl;
-  
+
+    delete[] arr;
     return 0;
 }
 
